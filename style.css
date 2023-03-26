@@ -14,16 +14,16 @@ main{
 h1{
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 7vw;
     margin-bottom: 50px;
 }
 
 #fizbuz-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: start;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
