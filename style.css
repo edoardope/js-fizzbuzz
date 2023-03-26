@@ -60,3 +60,14 @@ h1{
     margin: 10px;
 }
 
+.buzzfizz{
+    border: 1px solid black;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+}
+

@@ -5,7 +5,18 @@ let buzzfizzcont = document.querySelector('#fizbuz-container')
 for (let i = 1; i <= 100; i++) {
     
 
-    if (i % 3 === 0) {
+    
+    if (i % 3 === 0 && i % 5 === 0) {
+
+        console.log("BuzzFizz")
+        let buficont = document.createElement("span");
+        buficont.innerHTML = `${"BuzzFizz"}`;
+        buficont.classList.add("buzzfizz");
+        buzzfizzcont
+        buzzfizzcont.append(buficont)
+
+     
+    } else if (i % 3 === 0) {
 
         console.log("Fizz")
         let fizzcont = document.createElement("span");
